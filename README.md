@@ -26,3 +26,11 @@ He thought it'll be a good idea to convert this to Object Oriented Programming. 
 However, his trainer told him that what he did is not Object Oriented programming and asked Shivam to try again. 
 - Try to articulate problems with Shivam's OOP solution. (Write it somewhere and share it with your trainer)
 - Fork the project and fix the design related problem with Shivam's OOP solution. Share that with your trainer too.
+
+***
+
+Problems with Shivam's OOP solution
+
+- The Point class isn't essentially depicting any behavior, it merely has getter and setter methods. In other words, this isn't really an object oriented approach.
+- Coordinates of a point seems fixed for the purpose of this exercise. Thus, the setter methods are not really necessary.
+- Using getter methods to access the coordinates of Point isn't really different from the procedural approach and only defies the purpose of data hiding. 
